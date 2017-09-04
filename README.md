@@ -10,6 +10,10 @@
 
 ----
 
+**Note** : This is a fork of the original work that adds support for google image extension.
+
+----
+
 A sitemap generation tool for PHP following the [Sitemap Protocol v0.9](http://www.sitemaps.org/protocol.html).
 
 Cartographer can handle Sitemaps of any size.  When generating sitemaps with more than 50,000

@@ -1,5 +1,5 @@
 {
-    "name": "tackk/cartographer",
+    "name": "gsouf/cartographer",
     "description": "A PHP sitemap generation tool.",
     "keywords": ["sitemap", "generator"],
     "license": "MIT",
@@ -7,6 +7,9 @@
         {
             "name": "Dan Horrigan",
             "email": "dh@tackk.com"
+        },
+        {
+            "name": "Soufiane Ghzal"
         }
     ],
     "minimum-stability": "dev",
@@ -14,7 +17,7 @@
         "phpunit/phpunit": "4.0.*"
     },
     "require": {
-        "php": ">=5.4",
+        "php": ">=5.6",
         "league/flysystem": "1.0.*"
     },
     "autoload": {
