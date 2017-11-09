@@ -19,7 +19,7 @@ class GoogleSitemapFactory extends SitemapFactory
         return new GoogleSitemap();
     }
 
-    protected function addEntry($entry, AbstractSitemap $sitemap)
+    protected function addEntry($entry, Sitemap $sitemap)
     {
         if (!$sitemap instanceof GoogleSitemap) {
             throw new \Exception('Bad sitemap type. Must be a google site map instance');

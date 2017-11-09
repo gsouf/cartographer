@@ -60,11 +60,6 @@ class GoogleSitemapFactoryTest extends PHPUnit_Framework_TestCase
         $this->assertEquals(['foo.txt'], $this->factory->getFilesCreated());
     }
 
-    public function testCreateRequiresIterator()
-    {
-        $this->setExpectedException('PHPUnit_Framework_Error');
-        $this->factory->createSitemap();
-    }
 
     public function testCanCreateSmallSitemap()
     {
